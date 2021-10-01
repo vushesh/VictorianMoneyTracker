@@ -1,0 +1,14 @@
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\VictorianMoneyTracker.csprojAssemblyReference.cache
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\VictorianMoneyTracker.AssemblyInfoInputs.cache
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\VictorianMoneyTracker.AssemblyInfo.cs
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\VictorianMoneyTracker.csproj.CoreCompileInputs.cache
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\VictorianMoneyTracker.dll
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\ref\VictorianMoneyTracker.dll
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\VictorianMoneyTracker.pdb
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\bin\Debug\netstandard2.0\VictorianMoneyTracker.deps.json
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\bin\Debug\netstandard2.0\VictorianMoneyTracker.dll
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\bin\Debug\netstandard2.0\ref\VictorianMoneyTracker.dll
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\bin\Debug\netstandard2.0\VictorianMoneyTracker.pdb
+C:\Users\vushe\source\repos\VictorianMoneyTracker\VictorianMoneyTracker\obj\Debug\netstandard2.0\XamlC.stamp

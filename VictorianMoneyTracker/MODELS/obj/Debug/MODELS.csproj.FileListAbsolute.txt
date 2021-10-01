@@ -1,0 +1,9 @@
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\bin\Debug\MODELS.exe.config
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\bin\Debug\MODELS.exe
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\bin\Debug\MODELS.pdb
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\obj\Debug\MODELS.Properties.Resources.resources
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\obj\Debug\MODELS.csproj.GenerateResource.cache
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\obj\Debug\MODELS.exe
+C:\Users\vushe\source\repos\VictorianMoneyTracker\MODELS\obj\Debug\MODELS.pdb

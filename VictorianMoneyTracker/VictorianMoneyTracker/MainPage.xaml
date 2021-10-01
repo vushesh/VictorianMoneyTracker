@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VictorianMoneyTracker.MainPage">
+
+    <StackLayout>
+
+
+        <Grid ColumnSpacing="-50" >
+            <Label x:Name="totalPound" HeightRequest="30" Text="£1" Grid.Row="0" Grid.Column="0" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label x:Name="totalCrown" HeightRequest="30" Text="1C" Grid.Row="0" Grid.Column="1" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label x:Name="totalShillings" HeightRequest="30" Text="1s" Grid.Row="0" Grid.Column="2" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label x:Name="totalPence" HeightRequest="30" Text="1d" Grid.Row="0" Grid.Column="3" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label x:Name="totalFarthings" HeightRequest="30" Text="1f" Grid.Row="0" Grid.Column="4" FontSize="Large" HorizontalTextAlignment="Center"/>
+            
+            
+            <Label HeightRequest="40" Text="Total Worth" Grid.Row="1" Grid.Column="2" FontSize="Large" HorizontalTextAlignment="Center"/>
+            
+        </Grid>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            
+            <Button Text="-" Grid.Row="0" x:Name="PoundMinusBtn" Grid.Column="0" BackgroundColor="White" FontSize="40" Clicked="minusPound"/>
+            <ImageButton Source="downArrowEnabled.png" x:Name="poundDecBtn" Margin="13" Grid.Row="0" Grid.Column="1" BackgroundColor="White" Clicked="poundExchangedDec"/>
+            <Label Text= "0" Grid.Row="0" Grid.Column="2" BackgroundColor="White" FontSize="30" Padding="20" x:Name="PoundLabel" />
+            <Label Text="pounds" Grid.Row="0" Grid.Column="2" VerticalOptions="End" BackgroundColor="White" FontSize="23"/>
+            <ImageButton Source="upArrowDisabled.png" x:Name="poundIncBtn" Margin="10" Grid.Row="0" Grid.Column="3" BackgroundColor="White" IsVisible="True" Clicked="poundExchanged"/>
+            <Button Text="+"  Grid.Row="0" Grid.Column="4" FontSize="40" BackgroundColor="White" Clicked="AddPoundClicked"/>
+
+            <Button Text="-" Grid.Row="1" Grid.Column="0" x:Name="crownMinusBtn" BackgroundColor="White" FontSize="40" Clicked="minusCrowns"/>
+            <ImageButton Source="downArrowEnabled.png" x:Name="crownDecBtn" Margin="13" Grid.Row="1" Grid.Column="1" BackgroundColor="White" Clicked="crownExchangedDec"/>
+            <Label Text="0" Grid.Row="1" Grid.Column="2" BackgroundColor="White" FontSize="30" Padding="20" x:Name="crownLabel"/>
+            <Label Text="Crowns" Grid.Row="1" Grid.Column="2" VerticalOptions="End" BackgroundColor="White" FontSize="23"/>
+            <ImageButton Source="upArrowEnabled.png" Margin="10" x:Name="crownIncBtn" Grid.Row="1" Grid.Column="3" BackgroundColor="White" Clicked="crownExchanged"/>
+            <Button Text="+" Grid.Row="1" Grid.Column="4" FontSize="40" BackgroundColor="White" Clicked="AddCrownsClicked"/>
+
+            <Button Text="-" Grid.Row="2" Grid.Column="0" x:Name="ShillingsMinusBtn" BackgroundColor="White" FontSize="40" Clicked="minusShillings"/>
+            <ImageButton Source="downArrowEnabled.png" x:Name="ShillingsDecBtn" Margin="10" Grid.Row="2" Grid.Column="1" BackgroundColor="White" Clicked="shillingsExchangedDec" />
+            <Label Text="0" Grid.Row="2" Grid.Column="2" BackgroundColor="White" FontSize="30" Padding="20" x:Name="shillingLabel"/>
+            <Label Text="Shillings" Grid.Row="2" Grid.Column="2" VerticalOptions="End" BackgroundColor="White" FontSize="20"/>
+            <ImageButton Source="upArrowEnabled.png" x:Name="shillingsIncBtn" Margin="10" Grid.Row="2" Grid.Column="3" BackgroundColor="White" Clicked="shillingsExchanged"/>
+            <Button Text="+" Grid.Row="2" Grid.Column="4" FontSize="40" BackgroundColor="white" Clicked="AddshillingsClicked"/>
+
+            <Button Text="-" Grid.Row="3" Grid.Column="0" BackgroundColor="white" FontSize="40" Clicked="minusPence" IsEnabled="False"/>
+            <ImageButton Source="downArrowEnabled.png" Margin="10" Grid.Row="3" Grid.Column="1" BackgroundColor="White" IsEnabled="False"/>
+            <Label Text="0" Grid.Row="3" Grid.Column="2" BackgroundColor="White" FontSize="30" Padding="20" x:Name="penceLabel"/>
+            <Label Text="pence" Grid.Row="3" Grid.Column="2" VerticalOptions="End" BackgroundColor="White" FontSize="23"/>
+            <ImageButton Source="upArrowEnabled.png" Margin="10" Grid.Row="3" Grid.Column="3" BackgroundColor="White" IsEnabled="False"/>
+            <Button Text="+" Grid.Row="3" Grid.Column="4" FontSize="40" BackgroundColor="White" Clicked="AddpenceClicked"/>
+
+            <Button Text="-" Grid.Row="4" Grid.Column="0" BackgroundColor="White" FontSize="40" Clicked="minusFarthing" IsEnabled="False"/>
+            <ImageButton Source="downArrowDisabled.png" Margin="10" Grid.Row="4" Grid.Column="1" BackgroundColor="White" IsEnabled="False"/>
+            <Label Text="0" Grid.Row="4" Grid.Column="2" BackgroundColor="White" FontSize="30" Padding="20" x:Name="farthingLabel"/>
+            <Label Text="farthing" Grid.Row="4" Grid.Column="2" VerticalOptions="End" BackgroundColor="White" FontSize="20"/>
+            <ImageButton Source="upArrowEnabled.png" Margin="10" Grid.Row="4" Grid.Column="3" BackgroundColor="White" IsEnabled="False"/>
+            <Button Text="+" Grid.Row="4" Grid.Column="4" FontSize="40" BackgroundColor="white" Clicked="AddfarthingsClicked"/>
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
